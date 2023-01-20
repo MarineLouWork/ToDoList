@@ -1,0 +1,29 @@
+/*
+Title: To Do List _ responsive stylesheet
+Version: 1.0
+Author: Marine-Lou
+Design: Marine-Lou
+Last Update: 25-11-2022
+*/
+
+@media all and (max-width: 768px) {
+    section#taskAdded {
+        margin: 0px 11% 60px 11%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    section#addTask {
+        margin: 0;
+        height: fit-content;
+    }
+    section#taskAdded {
+        margin: 0px 0px 30px 20px;
+    }
+}
